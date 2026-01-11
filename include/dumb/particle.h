@@ -1,3 +1,6 @@
+#pragma once
+
+#include <glm/glm.hpp>
 
 /**
 * 입자는 물리 시스템에서 시뮬레이션하는 가장 단순한 개체이다.
@@ -15,5 +18,6 @@ protected:
     glm::vec3 acceleration;
         
 public:
-    
+    Particle();
+    virtual ~Particle();
 };
