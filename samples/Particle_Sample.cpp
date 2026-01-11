@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "dumb/particle.h"
+#include "particle.h"
 
 int main()
 {
