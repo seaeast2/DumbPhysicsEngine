@@ -33,7 +33,7 @@
 
 # IDEs
 .vs/
-.vscode/
+# .vscode/
 *.swp
 *.swo
 *.suo
@@ -48,3 +48,4 @@ build/
 out/
 bin/
 lib/
+libs/
