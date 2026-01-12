@@ -16,6 +16,10 @@ protected:
 
     // 입자의 가속도를 나타낸다. 중력 가속도나 그 밖의 가속도를 계산하는데 사용
     glm::vec3 acceleration;
+
+    // 직선운동에 대한 댐핑의 정도를 저장한다.
+    // 적분기에서 수치 연산 오차로 인해 증가한 에너지를 줄여주는 역할을 한다.
+    glm::float32 damping; // 속도 감쇠 계수
         
 public:
     Particle();

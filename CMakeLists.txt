@@ -28,6 +28,7 @@ endif()
 find_package(glm REQUIRED)
 find_package(glfw3 REQUIRED)
 find_package(glad CONFIG REQUIRED)
+find_package(OpenGL REQUIRED)
 
 # ---------------------------------------------------------------------------
 # 1. Physics Engine Static Library
@@ -58,5 +59,6 @@ foreach(SOURCE_FILE ${SAMPLE_SOURCES})
         DumbPhysics 
         glfw
         glad::glad
+        OpenGL::GL
     )
 endforeach()
