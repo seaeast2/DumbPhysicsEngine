@@ -25,6 +25,7 @@ cd D:\vcpkg
 ## vcpkg 업데이트
 
 `VCPKG_ROOT`가 이미 등록되어 있다면, 아래 명령으로 vcpkg 자체를 업데이트하세요.
+윈도우 환경변수 설정에서 시스템변수에 `VCPKG_ROOT`를 등록한다.
 
 ```powershell
 cd $env:VCPKG_ROOT
